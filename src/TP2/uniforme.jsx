@@ -12,7 +12,7 @@ function GenerarNumerosAleatoriosUniformes() {
 
   const handleGenerarNumerosAleatorios = () => {
     const nuevosNumeros = [];
-    const cantidadNumerosValida = Math.min(cantidadNumeros, 5000);
+    const cantidadNumerosValida = Math.min(cantidadNumeros, 50000);
     for (let i = 0; i < cantidadNumerosValida; i++) {
       const nuevoNumero = generarNumeroAleatorio(intervaloMinimo, intervaloMaximo);
       nuevosNumeros.push(nuevoNumero);
